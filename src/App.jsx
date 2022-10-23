@@ -6,7 +6,6 @@ function App() {
   return (
     <Fragment>
       <NavBar />
-
       <GetRoutes />
     </Fragment>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 
-function AboutMe() {
+function AboutId() {
   return (
     <div className="nested-about">
       <h1>I am a nested Route</h1>
@@ -8,4 +8,4 @@ function AboutMe() {
   );
 }
 
-export default AboutMe;
+export default AboutId;
