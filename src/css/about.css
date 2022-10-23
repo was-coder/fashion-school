@@ -1,0 +1,12 @@
+.about-text {
+  width: 90%;
+  font-size: 22px;
+}
+
+.about-link {
+  font-size: 25px;
+}
+
+.nested-about {
+  padding-top: 70px;
+}
