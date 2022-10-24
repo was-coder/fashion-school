@@ -18,7 +18,7 @@ function About() {
           caps, agbada(African Wears) and many more
         </p>
         <p className="inner-text about-text">
-          <NavLink className="links about-link" to="contact">
+          <NavLink className="links about-link" to="/contact">
             Contact Us Today --
           </NavLink>{" "}
           to enrol your ward or yourself to our school.
