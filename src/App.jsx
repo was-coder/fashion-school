@@ -1,13 +1,14 @@
 import { Fragment } from "react";
-import NavBar from "./components/NavBar";
-import GetRoutes from "./Routes/GetRoutes";
+import { NavBar, GetRoutes, ErrorBoundary } from "./imports/Import";
 
 function App() {
   return (
-    <Fragment>
-      <NavBar />
-      <GetRoutes />
-    </Fragment>
+    <ErrorBoundary>
+      <Fragment>
+        <NavBar />
+        <GetRoutes />
+      </Fragment>
+    </ErrorBoundary>
   );
 }
 
