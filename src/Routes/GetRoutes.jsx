@@ -1,8 +1,13 @@
-import { React, lazy, Fragment } from "react";
+import React, { Fragment } from "react";
 import { Routes, Route } from "react-router-dom";
-import { Home, About, AboutId, Contact, ErrorPage, Users } from "../imports/Import";
-
-let Users = lazy(() => import("../components/Users"));
+import {
+  Home,
+  About,
+  AboutId,
+  Contact,
+  ErrorPage,
+  Users,
+} from "../imports/Import";
 
 function GetRoutes() {
   return (

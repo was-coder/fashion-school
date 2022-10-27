@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import React, { Fragment } from "react";
 import { NavBar, GetRoutes, ErrorBoundary } from "./imports/Import";
 
 function App() {

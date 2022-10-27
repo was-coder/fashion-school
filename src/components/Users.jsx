@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import React, { useState } from "react";
 import useFetch from "../hooks/useFetch";
 
 function Users() {
@@ -22,17 +22,18 @@ function Users() {
     <div className="container user-container">
       <h2 className="users-list">List of Users</h2>
       <div className="users">
-        {data?.results
-          .slice(nextUsers, nextUsers + PER_USER)
-          .map((person, index) => {
-            const name = `${person.name.title} ${person.name.first} ${person.name.last}`;
-            return (
-              <li
-                key={name.toLowerCase().replaceAll(" ", "")}
-                className="list-item"
-              >{`${index + 1}.${name}`}</li>
-            );
-          })}
+        {data &&
+          data.results
+            .slice(nextUsers, nextUsers + PER_USER)
+            .map((person, index) => {
+              const name = `${person.name.title} ${person.name.first} ${person.name.last}`;
+              return (
+                <li
+                  key={name.toLowerCase().replaceAll(" ", "")}
+                  className="list-item"
+                >{`${index + 1}.${name}`}</li>
+              );
+            })}
 
         <p className="users-list">
           Users: {user} of {users}
