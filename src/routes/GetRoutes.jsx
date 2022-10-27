@@ -1,11 +1,5 @@
 import React, { Fragment } from "react";
 import { Routes, Route } from "react-router-dom";
-// import Home from "../components/Home";
-// import About from "../components/About";
-// import AboutId from "../components/AboutId";
-// import Contact from "../components/Contact";
-// import Users from "../components/Users";
-// import ErrorPage from "../errors/ErrorPage";
 import {
   Home,
   About,
