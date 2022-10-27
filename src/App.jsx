@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import NavBar from "./components/NavBar";
-import NavBar from "./errors/ErrorBoundary";
+import ErrorBoundary from "./errors/ErrorBoundary";
 // import { NavBar, ErrorBoundary } from "./imports/Import";
 import GetRoutes from "./components/GetRoutes";
 
