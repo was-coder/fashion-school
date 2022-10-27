@@ -40,7 +40,8 @@
   text-align: center;
 }
 
-.users-btn:disabled {
+.users-btn:disabled,
+.btn-number.active {
   color: #000000;
   background-color: #ffffff;
   border: 2px solid #ffffff;
