@@ -5,5 +5,5 @@ export { default as AboutId } from "../components/AboutId";
 export { default as Contact } from "../components/Contact";
 export { default as Users } from "../components/Users";
 export { default as ErrorPage } from "../errors/ErrorPage";
-export { default as GetRoutes } from "../routes/GetRoutes";
+// export { default as GetRoutes } from "../routes/GetRoutes";
 export { default as ErrorBoundary } from "../errors/ErrorBoundary";
