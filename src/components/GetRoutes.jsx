@@ -1,13 +1,19 @@
 import React, { Fragment } from "react";
 import { Routes, Route } from "react-router-dom";
-import {
-  Home,
-  About,
-  AboutId,
-  Contact,
-  ErrorPage,
-  Users,
-} from "../imports/Import";
+import Home from "./Home";
+import About from "./About";
+import AboutId from "./AboutId";
+import Contact from "./Contact";
+import Users from "./Users";
+import ErrorPage from "../errors/ErrorPage";
+// import {
+//   Home,
+//   About,
+//   AboutId,
+//   Contact,
+//   ErrorPage,
+//   Users,
+// } from "../imports/Import";
 
 function GetRoutes() {
   return (
